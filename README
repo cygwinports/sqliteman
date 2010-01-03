@@ -1,0 +1,51 @@
+sqliteman
+------------------------------------------
+A Qt4 GUI administration tool for SQLite databases.
+
+Runtime requirements:
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
+  libqscintilla2_5-2.4-2
+  libQtCore4-4.5.3-2
+  libQtGui4-4.5.3-2
+  libQtSql4-4.5.3-2
+  libstdc++6-4.3.4-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-2.19.51-1
+  cmake-2.8.0-11
+  cygport-0.9.10-1
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
+  make-3.81-2
+
+Canonical website:
+  http://sqliteman.com/
+
+Canonical download:
+  http://sourceforge.net/projects/sqliteman/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack sqliteman-<pv>-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./sqliteman-<pv>-X.cygport all
+
+This will create:
+  /usr/src/sqliteman-<pv>-X-src.tar.bz2
+  /usr/src/sqliteman-<pv>-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version <pv>-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
