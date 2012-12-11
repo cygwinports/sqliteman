@@ -1,5 +1,0 @@
-inherit qt4-cmake
-
-DESCRIPTION="Qt4 GUI administration tool for SQLite databases"
-HOMEPAGE="http://sqliteman.com/"
-SRC_URI="mirror://sourceforge/sqliteman/${P}.tar.bz2"

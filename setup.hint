@@ -1,4 +1,0 @@
-category: Database
-requires: libgcc1 libqscintilla2_8 libQtCore4 libQtGui4 libQtSql4 libstdc++6
-sdesc: "SQLite GUI administration tool"
-ldesc: "A Qt4 GUI administration tool for SQLite databases."

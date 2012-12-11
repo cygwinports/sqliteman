@@ -1,0 +1,10 @@
+inherit qt4-cmake
+
+NAME="sqliteman"
+VERSION=1.2.2
+RELEASE=4
+CATEGORY="Database"
+SUMMARY="SQLite GUI administration tool"
+DESCRIPTION="A Qt4 GUI administration tool for SQLite databases."
+HOMEPAGE="http://sqliteman.com/"
+SRC_URI="mirror://sourceforge/sqliteman/${P}.tar.bz2"
