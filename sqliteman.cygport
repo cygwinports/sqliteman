@@ -2,9 +2,19 @@ inherit qt4-cmake
 
 NAME="sqliteman"
 VERSION=1.2.2
-RELEASE=5
+RELEASE=6
 CATEGORY="Database"
 SUMMARY="SQLite GUI administration tool"
 DESCRIPTION="A Qt4 GUI administration tool for SQLite databases."
 HOMEPAGE="http://sqliteman.com/"
 SRC_URI="mirror://sourceforge/sqliteman/${NAME}-${VERSION}.tar.bz2"
+SRC_URI+=" http://pkgs.fedoraproject.org/repo/pkgs/sqliteman/sqliteman.png/dcae8b3c710d696b5fb010ebbdbe9725/sqliteman.png"
+PATCH_URI="http://pkgs.fedoraproject.org/cgit/sqliteman.git/plain/sqliteman-1.2.2-desktop.patch"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	rm ${D}/usr/share/icons/hicolor/*
+	doicon ${S}/sqliteman.png
+}
