@@ -2,7 +2,7 @@ inherit qt4-cmake
 
 NAME="sqliteman"
 VERSION=1.2.2
-RELEASE=6
+RELEASE=7
 CATEGORY="Database"
 SUMMARY="SQLite GUI administration tool"
 DESCRIPTION="A Qt4 GUI administration tool for SQLite databases."
